@@ -34,7 +34,7 @@ main {
 }
 
 .back {
-
+  width: 120px;
   display: flex;
   align-items: center;
   gap: 6px;

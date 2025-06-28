@@ -3,6 +3,7 @@ ul {
     gap: 32px;
     align-items: center;
     justify-content: center;
+    margin: auto;
 }
 
 .li-gallery,
