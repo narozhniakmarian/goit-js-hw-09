@@ -1,10 +1,10 @@
 
 
-export const formData = {
+const formData = {
     email: "",
     message: ""
 };
-export function localStorageInput() {
+function localStorageInput() {
     const form = document.querySelector('.feedback-form');
     if (!form) return;
 
@@ -42,4 +42,4 @@ export function localStorageInput() {
 
     });
 
-}
+} localStorageInput();

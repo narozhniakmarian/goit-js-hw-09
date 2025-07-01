@@ -3,7 +3,7 @@ import SimpleLightbox from "simplelightbox";
 
 import "simplelightbox/dist/simple-lightbox.min.css";
 
-export default function gallerySlyds() {
+function gallerySlyds() {
     const gallery = document.querySelector('.gallery');
     if (!gallery) return;
     const images = [
@@ -95,4 +95,4 @@ export default function gallerySlyds() {
 
 
 
-
+gallerySlyds();
