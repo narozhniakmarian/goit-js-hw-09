@@ -39,7 +39,8 @@ function localStorageInput() {
         console.log("Form submitted with data:", formData);
         localStorage.removeItem(localStorageKey);
         form.reset();
-
+ formData.email = "";
+    formData.message = "";
     });
 
 } localStorageInput();
